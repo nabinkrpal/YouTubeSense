@@ -1,0 +1,22 @@
+{
+    "name": "youtube-comment-analysis",
+    "version": "1.0.0",
+    "description": "A web app that fetches YouTube channel stats, analyzes video comments, and provides admin functionality for training models.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "child_process": "^1.0.2",
+      "express": "^4.17.1",
+      "express-session": "^1.17.1",
+      "googleapis": "^39.2.0",
+      "nodemon": "^2.0.15",
+      "google-auth-library": "^7.0.2"
+    }
+  }
+  
